@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
+    contentBase: path.join(__dirname, 'docs'),
     port: 8000
   },
   module: {
@@ -27,7 +27,7 @@ module.exports = {
   },
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'scripts.js'
   }
 }
