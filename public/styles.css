@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 1px solid #0d0220;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  width: 30%;
+}
+
+.search-bar form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form input, form button {
+  height: 30px;
+}
+
+.social-icons ul li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.current-weather {
+  width: 40%;
+  margin: 40px auto;
+  border: 1px solid red;
+}
+
+.daily-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-daily {
+  border: 1px solid red;
+}
